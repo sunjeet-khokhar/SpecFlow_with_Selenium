@@ -10,3 +10,5 @@ D:\Code\SpecFlow_with_Selenium\Third_try\Third_try\bin\Debug\WebDriver.dll
 D:\Code\SpecFlow_with_Selenium\Third_try\Third_try\bin\Debug\WebDriver.Support.dll
 D:\Code\SpecFlow_with_Selenium\Third_try\Third_try\bin\Debug\WebDriver.xml
 D:\Code\SpecFlow_with_Selenium\Third_try\Third_try\bin\Debug\WebDriver.Support.xml
+D:\Code\SpecFlow_with_Selenium\Third_try\Third_try\obj\Debug\Third_try.csprojResolveAssemblyReference.cache
+D:\Code\SpecFlow_with_Selenium\Third_try\Third_try\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll

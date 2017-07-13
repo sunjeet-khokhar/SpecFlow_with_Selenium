@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+
+
 
 namespace Third_try.Steps
 {
@@ -31,7 +34,9 @@ namespace Third_try.Steps
         public void ThenTheIShouldSeeKevinTheKiwiLogoOnTheHomepage()
         {
             var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
-            wait.Until(drv => drv.FindElement(By.Id("SiteHeader_SiteTabs_kevin")));
+            wait.Until(driver => driver.FindElement(By.Id("SiteHeader_SiteTabs_kevin")));
+            Assert.IsTrue(driver.Title == "Buy online and sell with NZ's #1 auction & classifieds site | Trade Me");
+            //Console.WriteLine(driver.Title);
             driver.Quit();
         }
     }
